@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My One-Page Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome</h1>
+        <p>This is an example of my one-page website.</p>
+    </header>
+
+    <section class="gallery">
+        <h2>Gallery</h2>
+
+        <div class="images">
+            <img src="images/1.png" alt="Image 1" class="thumbnail" onclick="openModal(this)">
+            <img src="images/2.png" alt="Image 2" class="thumbnail" onclick="openModal(this)">
+            <img src="images/3.png" alt="Image 3" class="thumbnail" onclick="openModal(this)">
+            <img src="images/4.png" alt="Image 4" class="thumbnail" onclick="openModal(this)">
+        </div>
+    </section>
+
+    <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImg">
+        <div id="caption"></div>
+    </div>
+
+    <footer>
+        <p>Copyright &copy; 2025 - My Website</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
