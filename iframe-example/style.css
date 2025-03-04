@@ -1,0 +1,169 @@
+body {
+    background-color: #ccccff;
+    background-image: url('clouds_bg.gif');
+    font-family: "Times New Roman", Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+.page-wrapper {
+    width: 780px;
+    margin: 0 auto;
+    background-color: white;
+    border: 2px solid navy;
+    box-shadow: 5px 5px 10px #666666;
+}
+
+header {
+    border-bottom: 3px double #000080;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #000080;
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+nav li {
+    display: table-cell;
+    text-align: center;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 8px 0;
+    font-weight: bold;
+}
+
+nav a:hover, nav a.active {
+    background-color: #0000CD;
+}
+
+main {
+    padding: 10px;
+}
+
+.counter {
+    text-align: right;
+    font-size: 12px;
+    font-family: 'Courier New', monospace;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.page-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+marquee {
+    font-weight: bold;
+    color: green;
+    background-color: #ffff99;
+    padding: 5px;
+    border: 1px dashed green;
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.content-box {
+    margin: 10px 0;
+}
+
+.video-player {
+    padding: 10px;
+    background-color: white;
+}
+
+.video-player iframe {
+    width: 100%;
+    max-width: 560px;
+    display: block;
+    margin: 0 auto;
+    border: 2px inset gray;
+}
+
+.highlights {
+    border: 1px solid #000080;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f0f0ff;
+}
+
+.highlights h3 {
+    color: #000080;
+    text-decoration: underline;
+    margin-top: 0;
+}
+
+.highlights ul {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.highlights li {
+    margin-bottom: 8px;
+}
+
+.sign-guestbook {
+    text-align: center;
+    margin: 30px 0 20px;
+}
+
+.sign-guestbook a {
+    display: block;
+    color: #000080;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-top: 5px;
+}
+
+.sign-guestbook a:hover {
+    color: red;
+}
+
+footer {
+    background-color: #e0e0e0;
+    border-top: 1px solid #999;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+}
+
+#bonus-tip {
+    position: absolute;
+    left: -200px;
+    top: 200px;
+    background-color: #ffff99;
+    border: 1px solid #cc9900;
+    padding: 10px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+    transition: left 1.5s ease;
+}
+
+#bonus-tip img {
+    margin-right: 10px;
+}
+
+#bonus-tip span {
+    font-size: 12px;
+    font-weight: bold;
+    color: #990000;
+}
